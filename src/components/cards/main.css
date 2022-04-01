@@ -1,0 +1,126 @@
+.App{
+    /* border: 1px solid black; */
+    /* width: 900px; */
+    height: 370px;
+    background-color: #f3f3f3;
+}
+
+.innerbox{
+    border: 1px solid #f3f3f3;
+    width: 900px;
+}
+
+.text_heading{
+    /* border: 1px solid red; */
+    width: 900px;
+}
+
+.offer_heading{
+    /* border: 1px solid black; */
+    width: 200px;
+    margin-top: 4%;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 24.8px;
+}
+.innerbox .image_css{
+    /* border: 1px solid red; */
+    height: 250px;
+    width: 200px;
+    margin-left: 1.5%;
+    box-shadow: 5px 8px #f3f3f3;
+    /* background-color: #d8bfd8; */
+}
+
+.container{
+    /* border: 1px solid black; */
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+}
+.container .image_container1{
+    /* border: 1px solid blue; */
+    height: 450px;
+    width: 600px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.container .image_container2{
+    /* border: 1px solid blue; */
+    height: 400px;
+    width: 580px;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+
+.cards{
+    /* border: 1px solid black; */
+    height: 222px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cards .cards_components1{
+    /* border: 1px solid blue; */
+    height: 210px;
+    margin: 1%;
+    border-radius: 3%;
+    /* width: 250px; */
+}
+.cards .cards_components2{
+    /* border: 1px solid red; */
+    height: 210px;
+    margin: 1%;
+    border-radius: 3%;
+    /* width: 250px; */
+}
+
+.card_image{
+    /* border: 1px solid blue; */
+    border-radius: 3%;
+    height: 150px;
+    width: 280px;
+    overflow: hidden;
+}
+
+.card_image img{
+    width: 100%;
+    transition: 0.5s;
+    /* transform: scale(1.1); */
+}
+.card_image:hover img{
+    transform: scale(1.2);
+}
+
+.card_border{
+    /* border: 1px solid black; */
+    height: 2px;
+    border-radius: 3%;
+    background-color: red;
+}
+.card_content{
+    /* border: 1px solid red; */
+    height: 55px;
+    border-radius: 3%;
+}
+.card_content .text{
+    /* border: 1px solid black; */
+    height: 50px;
+}
+
+.text h4{
+    /* border: 1px solid red; */
+    width: 180px;
+    margin-top: 1%;
+    font-size: 16.1px;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.text p{
+    /* border: 1px solid red; */
+    width: 250px;
+    margin-top: 0.5%;
+    /* margin-bottom: 4%; */
+    font-size: 12px;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
