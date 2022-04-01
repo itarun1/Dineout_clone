@@ -1,0 +1,19 @@
+.offer-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+
+	.offer_token_image {
+		max-width: 40px;
+		height: auto;
+	}
+
+	.offer_percent {
+		font-size: 13px;
+		text-align: left;
+		font-weight: 600;
+		width: 50%;
+		color: rgb(29, 29, 29);
+	}
+}
