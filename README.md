@@ -60,5 +60,5 @@ We have tried our best to give almost all the functionality available on the act
 
 ### [Arun Teja Kasula](https://github.com/kasulaarunteja)
 ### [Sunil](https://github.com/Sarsande-Sunil)
-### [Vishwaraj](https://github.com/PatilVishwaraj)
+### [Vishwaraj Patil](https://github.com/PatilVishwaraj)
 ### [Himanshu]
