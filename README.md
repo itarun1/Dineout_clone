@@ -38,28 +38,28 @@ npm run server --Back End
 ## How to use the Product
 1. After Starting the Project using npm start. You will see the landing page something similar to the below image.  
 
-![image]
+![image](https://miro.medium.com/max/868/1*vTDvGc4jxKPl2as7kElQgQ.png)
 
 2. After that if you are a new user login using Google Auth. 
-![image]
+![image](https://miro.medium.com/max/868/1*ZcWNsXYeGt1R9zJcu9RnGg.png)
 
 3. When you go to book a table page where you can see filters related to different offers, tags, Cuisines, and Dineout Passport offers on the left side and also you can sort them based on rating and total cost for 2 persons from low to high and from high to low. 
-![image]
+![image](https://miro.medium.com/max/868/1*QBimQ0Qjr2msXz6UDsITrg.png)
 
 4.When you Click on any of the restaurant tabs you will be re-directed to the restaurant detail page over there you can book a table by selecting all the required fields over there.
-![image]
+![image](https://miro.medium.com/max/868/1*Q8V4YMOvYmCWkDmILmSlJQ.png)
 
 
 5. After booking if you press on continue then you will be directed to the Booking Details page over there you can see all the details related to your present and previous booking info. 
 
-![image]
+![image](https://miro.medium.com/max/868/1*KoNgYUCpRzuObmWx9vEe1g.png)
 
 ## End Notes 
 We have tried our best to give almost all the functionality available on the actual website.
 
 ## Contributors
 
-### [kasula Arun Teja] 
-### [Sunil]
-### [Vishwaraj]
+### [Arun Teja Kasula](https://github.com/kasulaarunteja)
+### [Sunil](https://github.com/Sarsande-Sunil)
+### [Vishwaraj](https://github.com/PatilVishwaraj)
 ### [Himanshu]
