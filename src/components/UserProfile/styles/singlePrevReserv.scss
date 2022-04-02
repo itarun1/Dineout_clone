@@ -1,0 +1,57 @@
+@import "../../../global.scss";
+
+.single_prev_details {
+	background-color: rgb(240, 240, 240);
+
+	border-radius: 20px;
+	width: 60%;
+	margin: auto;
+	margin-top: $margin-top;
+	margin-bottom: 20px;
+
+	h1 {
+		margin: 10px auto 5px auto;
+		// border: 1px solid green;
+		width: 90%;
+	}
+
+	h2 {
+		text-align: left;
+		margin: 10px auto;
+		font-size: 23px;
+		width: 90%;
+	}
+
+	.mainHeading {
+		font-weight: 700;
+		color: rgb(29, 29, 29);
+
+		& + p {
+			color: grey;
+			font-size: 20px;
+			margin: 5px 0;
+			width: 90%;
+			margin: auto;
+			font-weight: 600;
+		}
+	}
+
+	.guest__details,
+	.booking__summary {
+		span {
+			display: flex;
+			justify-content: space-between;
+			width: 90%;
+			margin: auto;
+
+			p:first-child {
+				color: rgb(29, 29, 29);
+				font-weight: 600;
+			}
+
+			p:last-child {
+				color: rgb(29, 29, 29);
+			}
+		}
+	}
+}
