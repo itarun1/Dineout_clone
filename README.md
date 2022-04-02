@@ -27,12 +27,11 @@ npm run server --Back End
 - Libraries Used
     - Redux
     - React-Redux
-    - material-ui/core
-    - uuid
+    - material-ui
     - React Router Dom
-    - Redux Thunk
+    - Redux
     - Express
-    - cors
+   
 
 
 ## How to use the Product
