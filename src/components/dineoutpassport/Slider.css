@@ -1,0 +1,24 @@
+.slider {
+  background-color: rgb(93, 18, 65);
+}
+.item {
+  height: 25rem;
+  min-width: 20rem;
+  padding: 40px;
+  background-color: rgb(93, 18, 65);
+}
+.item img {
+  margin-top: 15px;
+  width: 100%;
+  height: 80%;
+  border-radius: 2rem;
+  pointer-events: none;
+}
+.inner-carousel {
+  display: flex;
+  background-color: rgb(93, 18, 65);
+}
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
