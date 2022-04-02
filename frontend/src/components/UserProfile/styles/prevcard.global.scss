@@ -1,0 +1,61 @@
+.prev__reserv-card {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: 1px solid rgb(185, 185, 185);
+	padding: 10px 0;
+	margin-left: 20px;
+	position: relative;
+	width: 90%;
+	gap: 20px;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	p {
+		margin: 0;
+		color: rgb(63, 63, 63);
+		margin-bottom: 5px;
+		font-size: 14px;
+	}
+
+	.text__section {
+		text-align: left;
+
+		.heading {
+			color: rgb(95, 95, 95);
+			font-weight: 700;
+			margin: 0;
+		}
+
+		.booking__status {
+			display: flex;
+			margin-top: 10px;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+
+			.bs_pair {
+				p {
+					color: grey;
+
+					&:last-child {
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+
+	.right_arrow {
+		font-size: 50px;
+		color: grey;
+		position: absolute;
+		right: 10px;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
