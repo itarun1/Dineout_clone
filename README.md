@@ -1,71 +1,65 @@
-# Project-Dineout-FullStack
-Dineout is India's largest dining out and restaurant tech solutions platform in B2C and B2B front with InResto & Torqus, processing more than 100M diners
+# Dineout Clone 
 
-# Preview
+We have cloned a restaurant table reservation application called DineOut. It simply meant allowing diners to reserve a guaranteed table at the top restaurants in the city. Over time it has evolved to provide multiple benefits on one platform for all dining out needs.
 
-![preview](https://github.com/sayanwastaken/project_dineout/raw/main/frontend/public/images/preview.gif)
+In this Project, We have tried to implement some of the functionalities of the application like filtering the restaurants based on cuisine, offers, and the facilities available with them along with these we have tried sorting functionalities and the User flow of booking a table and applying best available offers at a restaurant. 
 
-# Features
+## Steps Involved In Installing This Application. 
 
-<p>User Login and Authentication </p>
+### Clone the Git repo using the below link
 
-![User Authentication](https://github.com/sayanwastaken/project_dineout/raw/main/frontend/public/images/d2.png)
+- Use the package manager [npm] to install required Packages.
 
-<p>Home</p>
+```bash
+npm install
+In Back-End make sure to install mongoose@5.11.15
+```
+- After Installing Run the project in Front-End as well as Back-End
+```bash
+npm start --Front End
+npm run server --Back End
+```
 
-![User Authentication](https://github.com/sayanwastaken/project_dineout/raw/main/frontend/public/images/d1.png)
+## Technologies Used
 
-<p>Restaurant Listing Page</p>
+- React
+- CSS
+- Libraries Used
+    - Redux
+    - React-Redux
+    - material-ui/core
+    - uuid
+    - React Router Dom
+    - Redux Thunk
+    - Express
+    - cors
 
-![User Authentication](https://github.com/sayanwastaken/project_dineout/raw/main/frontend/public/images/d3.png)
 
-<p>Restaurant Landing Page</p>
+## How to use the Product
+1. After Starting the Project using npm start. You will see the landing page something similar to the below image.  
 
-![User Authentication](https://github.com/sayanwastaken/project_dineout/raw/main/frontend/public/images/d4.png)
+![image]
 
-<p>Reservation Calander</p>
+2. After that if you are a new user login using Google Auth. 
+![image]
 
-![User Authentication](https://github.com/sayanwastaken/project_dineout/raw/main/frontend/public/images/d5.png)
+3. When you go to book a table page where you can see filters related to different offers, tags, Cuisines, and Dineout Passport offers on the left side and also you can sort them based on rating and total cost for 2 persons from low to high and from high to low. 
+![image]
 
-<p>Reservation Records</p>
+4.When you Click on any of the restaurant tabs you will be re-directed to the restaurant detail page over there you can book a table by selecting all the required fields over there.
+![image]
 
-![User Authentication](https://github.com/sayanwastaken/project_dineout/raw/main/frontend/public/images/d6.png)
 
-# Getting Started
+5. After booking if you press on continue then you will be directed to the Booking Details page over there you can see all the details related to your present and previous booking info. 
 
-<h4>Want to run in your local Machine? Great!<h4>
+![image]
 
-<h4>To run, follow these steps:</h4>
+## End Notes 
+We have tried our best to give almost all the functionality available on the actual website.
 
-  <ul>
-    <li>clone my repository https://github.com/sayanwastaken/project_dineout </li>
-    <li>Open that code in your Code Editor</li>
-    <li>cd to frontend</li>
-    <li> run cmd npm install</li>
-    <li>run 'npm run start' to Run Project</li>
-    <li>open your Browser and go to 'localhost:3000'</li>
-    <li>thats all !</li>
-  </ul>
-  
-  # TechStacks
-  <ul>
-  <li>React</li>
-  <li>Node js</li>
-  <li>Express</li> 
-  <li>MongoDb</li>
-  </ul>
-  
-  # Developers
-<ul>
-  <li>Sayan Das
-  </li>
-   <li>
-     Aman Kumar
-  </li>
-   <li>
-     Robby Dongre
-  </li>
-   <li>
-     Akshay Thakur
-  </li>
-  </ul>
+## Contributors
+
+### [kasula Arun Teja] 
+### [Sunil]
+### [Vishwaraj]
+### [Himanshu]
